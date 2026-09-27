@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "pink",
+    "name": "Pink noise",
+    "alpha": 1,
+    "definition": "Equal power per octave.",
+    "frequency": "S_f\\,\\propto\\,1/f",
+    "wavelength": "S_\\lambda\\,\\propto\\,1/\\lambda",
+    "insight": "A hint of pink.\nA little lavender.",
+    "note": "A display approximation of a 1/f light spectrum.",
+    "expected": "#F5ECFF",
+    "xyz": [
+      104.14417364545191,
+      105.46272251329749,
+      129.76210211124388
+    ],
+    "xy": [
+      0.3068759202412398,
+      0.3107612158179341
+    ],
+    "linear_rgb": [
+      0.9112981501150244,
+      0.842378953975723,
+      1.0
+    ],
+    "clipped_channels": [],
+    "rgb": [
+      245,
+      236,
+      255
+    ],
+    "hex": "#F5ECFF",
+    "wavelength_interval_nm": [
+      380,
+      700
+    ],
+    "graph": "power per unit wavelength, independently peak-normalized",
+    "background": "direct CIE XYZ to sRGB; max linear channel = 1; clip then encode",
+    "optical_analogue_only": false,
+    "audio_mapping": null,
+    "spectrum_peak_normalized_endpoints": [
+      1.0,
+      0.5428571428571428
+    ]
+  },
+  {
+    "slug": "white",
+    "name": "White noise",
+    "alpha": 0,
+    "definition": "Equal power per hertz.",
+    "frequency": "S_f\\,=\\,\\mathrm{constant}",
+    "wavelength": "S_\\lambda\\,\\propto\\,1/\\lambda^2",
+    "insight": "White by name.\nBluish on this display.",
+    "note": "Flat per hertz is not flat per nanometre, or D65 white.",
+    "expected": "#D0D7FF",
+    "xyz": [
+      103.33692743145504,
+      104.74379354668713,
+      158.0220088355778
+    ],
+    "xy": [
+      0.28226210573200267,
+      0.28610492360978235
+    ],
+    "linear_rgb": [
+      0.6278679540428976,
+      0.6796405338270166,
+      1.0
+    ],
+    "clipped_channels": [],
+    "rgb": [
+      208,
+      215,
+      255
+    ],
+    "hex": "#D0D7FF",
+    "wavelength_interval_nm": [
+      380,
+      700
+    ],
+    "graph": "power per unit wavelength, independently peak-normalized",
+    "background": "direct CIE XYZ to sRGB; max linear channel = 1; clip then encode",
+    "optical_analogue_only": false,
+    "audio_mapping": null,
+    "spectrum_peak_normalized_endpoints": [
+      1.0,
+      0.29469387755102044
+    ]
+  },
+  {
+    "slug": "brown",
+    "name": "Brown Noise",
+    "alpha": 2,
+    "definition": "Brownian noise. Also called red noise.",
+    "frequency": "S_f\\,\\propto\\,1/f^2",
+    "wavelength": "S_\\lambda\\,=\\,\\mathrm{constant}",
+    "insight": "More red than pink.\nStill a very pale tint.",
+    "note": "The 1/f² law becomes equal power per nanometre.",
+    "expected": "#FFE6E2",
+    "xyz": [
+      106.689582891,
+      106.79688783351001,
+      106.842857431136
+    ],
+    "xy": [
+      0.3330621754345272,
+      0.3333971586317506
+    ],
+    "linear_rgb": [
+      1.0,
+      0.79024382395965,
+      0.7567386192091211
+    ],
+    "clipped_channels": [],
+    "rgb": [
+      255,
+      230,
+      226
+    ],
+    "hex": "#FFE6E2",
+    "wavelength_interval_nm": [
+      380,
+      700
+    ],
+    "graph": "power per unit wavelength, independently peak-normalized",
+    "background": "direct CIE XYZ to sRGB; max linear channel = 1; clip then encode",
+    "optical_analogue_only": false,
+    "audio_mapping": null,
+    "spectrum_peak_normalized_endpoints": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "slug": "violet",
+    "name": "Violet Noise",
+    "alpha": -2,
+    "definition": "Also called purple noise.",
+    "frequency": "S_f\\,\\propto\\,f^2",
+    "wavelength": "S_\\lambda\\,\\propto\\,1/\\lambda^4",
+    "insight": "A name is not\na paint sample.",
+    "note": "This convention gives a periwinkle-blue display color.",
+    "expected": "#94B1FF",
+    "xyz": [
+      107.69410247806509,
+      105.15504996227787,
+      236.19314426959866
+    ],
+    "xy": [
+      0.2398306423851871,
+      0.2341762696581847
+    ],
+    "linear_rgb": [
+      0.29708847588835574,
+      0.4385261361041792,
+      1.0
+    ],
+    "clipped_channels": [],
+    "rgb": [
+      148,
+      177,
+      255
+    ],
+    "hex": "#94B1FF",
+    "wavelength_interval_nm": [
+      380,
+      700
+    ],
+    "graph": "power per unit wavelength, independently peak-normalized",
+    "background": "direct CIE XYZ to sRGB; max linear channel = 1; clip then encode",
+    "optical_analogue_only": false,
+    "audio_mapping": null,
+    "spectrum_peak_normalized_endpoints": [
+      1.0,
+      0.08684448146605582
+    ]
+  },
+  {
+    "slug": "grey-hearing",
+    "name": "Grey, by hearing",
+    "alpha": null,
+    "definition": "Audio frequencies mapped into light.",
+    "wavelength": "S_\\lambda\\,=\\,P_a(a(\\lambda))\\,|da/d\\lambda|",
+    "insight": "Compensate the ear.\nThen translate to light.",
+    "note": "20 Hz → 700 nm; 12.5 kHz → 380 nm. A chosen audio-to-light mapping; color outside sRGB.",
+    "xyz": [
+      33684.22810808474,
+      14961.65817427343,
+      7671.2406753939795
+    ],
+    "xy": [
+      0.5981169482128215,
+      0.2656679944894442
+    ],
+    "linear_rgb": [
+      1.0,
+      -0.05167715070313476,
+      0.08420037866521797
+    ],
+    "clipped_channels": [
+      "G"
+    ],
+    "rgb": [
+      255,
+      0,
+      82
+    ],
+    "hex": "#FF0052",
+    "wavelength_interval_nm": [
+      380,
+      700
+    ],
+    "graph": "power per unit wavelength, independently peak-normalized",
+    "background": "direct CIE XYZ to sRGB; max linear channel = 1; clip then encode",
+    "optical_analogue_only": true,
+    "audio_mapping": {
+      "phon": 60.0,
+      "audio_range_hz": [
+        20.0,
+        12500.0
+      ],
+      "map": "audio = 20*(700/lambda_nm)^q",
+      "q": 10.537986479521537,
+      "jacobian": "q*audio/lambda_nm",
+      "interpolation": "PCHIP of dB SPL in log audio Hz",
+      "power_convention": "per Hz before mapping"
+    },
+    "spectrum_peak_normalized_endpoints": [
+      0.09596316742642715,
+      1.0
+    ]
+  },
+  {
+    "slug": "grey-vision",
+    "name": "Grey, by vision",
+    "alpha": null,
+    "definition": "Equal luminance from each wavelength.",
+    "wavelength": "S_\\lambda\\,\\propto\\,1/\\overline{y}(\\lambda)",
+    "insight": "Less green power.\nFar from grey.",
+    "note": "An optical analogue, not standard audio grey noise. The true color is outside sRGB.",
+    "xyz": [
+      2453.696803079666,
+      320.0,
+      10461.764725554562
+    ],
+    "xy": [
+      0.1853880801792383,
+      0.02417747196104169
+    ],
+    "linear_rgb": [
+      0.20154369675062678,
+      -0.12065948698539658,
+      1.0
+    ],
+    "clipped_channels": [
+      "G"
+    ],
+    "rgb": [
+      124,
+      0,
+      255
+    ],
+    "hex": "#7C00FF",
+    "wavelength_interval_nm": [
+      380,
+      700
+    ],
+    "graph": "power per unit wavelength, independently peak-normalized",
+    "background": "direct CIE XYZ to sRGB; max linear channel = 1; clip then encode",
+    "optical_analogue_only": true,
+    "audio_mapping": null,
+    "spectrum_peak_normalized_endpoints": [
+      1.0,
+      0.009507557289127255
+    ]
+  }
+]

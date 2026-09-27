@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "vision",
+    "source": "CIE 1931 2-degree observer: y-bar(lambda) = V(lambda)",
+    "reference": "555 nm; V = 1",
+    "peak_x": 555.0,
+    "maximum_compensating_power": 25641.02564102564
+  },
+  {
+    "slug": "hearing",
+    "source": "ISO 226:2023 Eq. (1), Table 1; PCHIP of SPL versus log frequency",
+    "reference": "3150 Hz; 60-phon SPL = 56.361711999241 dB",
+    "peak_x": 3150.0,
+    "maximum_compensating_power": 199818.38464266816
+  }
+]
